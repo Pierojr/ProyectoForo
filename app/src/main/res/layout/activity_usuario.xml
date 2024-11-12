@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <VideoView
+            android:id="@+id/VideoView"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="90dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Novedades De Videojuegos.."
+            android:background="#006FCD"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Proximo Lanzamiento :O"
+            android:layout_marginTop="310dp"
+            android:background="#006FCD"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="390dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/Sonido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precioname :D"
+            android:layout_marginTop="689dp"
+            android:backgroundTint="#ff0049"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
